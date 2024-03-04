@@ -1,0 +1,28 @@
+.navbar {
+    overflow: hidden; /* Esconde qualquer conteúdo que transborde */
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    position: fixed; /* Fixa a barra de navegação no topo */
+    width: 100%; /* Largura total da barra de navegação */
+    top: 0; /* Posiciona a barra de navegação no topo */
+}
+.navbar ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+.navbar ul li {
+    float: left; /* Faz os itens de navegação flutuarem à esquerda */
+}
+.navbar ul li a {
+    display: block; /* Exibe os links como blocos */
+    padding: 14px 16px; /* Preenchimento interno */
+    text-decoration: none; /* Remove a decoração do texto */
+    color: #fff; /* Cor do texto */
+}
+.navbar ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+.content {
+    margin-top: 60px; /* Margem superior para compensar a barra de navegação fixa */
+    padding: 20px; /* Preenchimento interno */
+}
